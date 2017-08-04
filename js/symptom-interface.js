@@ -1,4 +1,4 @@
-var apiKey = "058e083a2e4bd200f48a6fe5642ecce7";
+var apiKey = require('./../.env').apiKey;
 
 var Symptom = require('./../js/symptom.js').symptomModule;
 
