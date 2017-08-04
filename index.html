@@ -18,13 +18,13 @@
   </head>
   <body>
     <div class="container">
+      <h1>Doctor Lookup</h1>
       <form id="symptom-form">
         <label for="retrieve-symptom">Enter your symptom:</label>
-        <input id="retrieve-symptom" type="text">
-        <button class="button">Submit</button>
+        <input id="retrieve-symptom" type="text" onclick="Symptom(); return false";>
+        <button class="btn-success" id="symptom" type="button">Submit</button>
       </form>
-      <div class="confirm-input">
-      </div>
+      <div class="confirm-input"></div>
       <ul id="doctor-results"></ul>
     </div>
   </body>
