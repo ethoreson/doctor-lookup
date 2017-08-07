@@ -6,7 +6,7 @@
     "Emilie Thoreson <thoresonemilie@gmail.com>"
   ],
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/ethoreson/doctor-lookup",
   "ignore": [
     "**/.*",
     "node_modules",
