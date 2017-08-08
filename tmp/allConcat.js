@@ -6,7 +6,7 @@ $(document).ready(function() {
   $('#symptom').click(function() {
     var symptom = $("#retrieve-symptom").val();
     $('#retrieve-symptom').val("");
-    $(".doctor-results").text("Based on your symptom of " + symptom + "...");
+    $(".doctor-results").text("Based on your entry of " + symptom + "...");
     newSymptom.getDoctors(symptom);
   });
 });
